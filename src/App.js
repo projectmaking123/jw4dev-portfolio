@@ -50,7 +50,7 @@ class App extends Component {
                       <i className="fa fa-check"></i>
                     </div>
                     <div className="p-4 align-self-end">
-                      Firebase's google auth is used for User Authentication
+                      Firebase's google auth is used for User Authentication.
                     </div>
                   </div>
                   <div className="d-flex flex-row">
@@ -66,14 +66,27 @@ class App extends Component {
                       <i className="fa fa-check"></i>
                     </div>
                     <div className="p-4 align-self-end">
-                      A Search feature to filter jobs
+                      Full CRUD capability, with a search feature to filter jobs.
                     </div>
                   </div>
                   <div className="d-flex flex-row">
-                    <div className="p-4 align-self-end">
+                    <div className="p-4 align-self-start">
                       <a href="https://github.com/projectmaking123/react-front-jobs">
                         <i style={{fontSize: '60px'}} className="fa fa-github"></i>
                       </a>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      React Front End
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <a href="https://github.com/projectmaking123/restful-rails-jobs-api">
+                        <i style={{fontSize: '60px'}} className="fa fa-github"></i>
+                      </a>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      Rails API
                     </div>
                   </div>
                 </div>
@@ -114,6 +127,29 @@ class App extends Component {
                       <a href="https://github.com/projectmaking123/jason-wang-1989">
                         <i style={{fontSize: '60px'}} className="fa fa-github"></i>
                       </a>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      React Front End
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-end">
+                      <a href="https://github.com/projectmaking123/sudoku-api">
+                        <i style={{fontSize: '60px'}} className="fa fa-github"></i>
+                      </a>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      Rails API
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-end">
+                      <a href="https://github.com/projectmaking123/forecast-api-projectmaking123">
+                        <i style={{fontSize: '60px'}} className="fa fa-github"></i>
+                      </a>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      NODE/EXPRESS API
                     </div>
                   </div>
                 </div>
@@ -160,6 +196,51 @@ class App extends Component {
                       </a>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="py-5">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <h3>Terminal Command Line Battleship</h3>
+                  <p>Play battleship in the terminal</p>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      Play against an AI
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      Play against another player
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      Watch 2 AI's play against each other
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-end">
+                      <a href="https://github.com/projectmaking123/battleship-challenge">
+                        <i style={{fontSize: '60px'}} className="fa fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <img src="img/battleship.jpg" alt="" className="img-fluid mb-3 rounded-circle" />
                 </div>
               </div>
             </div>
