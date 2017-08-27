@@ -5,9 +5,9 @@ class App extends Component {
   render() {
     return (
       <div id="body">
-          <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+          <nav className="navbar navbar-expand-xxl bg-dark navbar-dark fixed-top">
             <div className="container">
-              <a href="index.html" className="navbar-brand">Test</a>
+              <a href="index.html" className="navbar-brand">Jason Wang</a>
               <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -19,75 +19,108 @@ class App extends Component {
                   <li className="nav-item">
                     <a href="#explore-head-section" className="nav-link">Explore</a>
                   </li>
-                  <li className="nav-item">
-                    <a href="#create-head-section" className="nav-link">Create</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#share-head-section" className="nav-link">Share</a>
-                  </li>
                 </ul>
               </div>
             </div>
           </nav>
 
-          <header id="home-section">
-            <div className="dark-overlay">
-              <div className="home-inner">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-lg-8 d-none d-lg-block">
-                      <h1 className="display-4">Build profile</h1>
-                      <div className="d-flex flex-row">
-                        <div className="p-4 align-self-start">
-                          <i className="fa fa-check"></i>
-                        </div>
-                        <div className="p-4 align-self-end">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
-                        </div>
-                      </div>
-                      <div className="d-flex flex-row">
-                        <div className="p-4 align-self-start">
-                          <i className="fa fa-check"></i>
-                        </div>
-                        <div className="p-4 align-self-end">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
-                        </div>
-                      </div>
-                      <div className="d-flex flex-row">
-                        <div className="p-4 align-self-start">
-                          <i className="fa fa-check"></i>
-                        </div>
-                        <div className="p-4 align-self-end">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4">
-                      <div className="card bg-primary text-center card-form">
-                        <div className="card-body">
-                          <h3>Sign Up</h3>
-                          <p>Fill it out</p>
+          <header>
+            <h1 id="home">Design With Intention</h1>
+          </header>
 
-                        </div>
-                      </div>
+          <section className="text-center">
+            <h1>
+              Projects
+            </h1>
+          </section>
+
+          <section id="explore-section" className="bg-light text-muted py-5">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <a href="https://react-for-bacon.firebaseapp.com/" >
+                    <img src="img/bacon.jpg" alt="" className="img-fluid mb-3 rounded-circle" />
+                  </a>
+                </div>
+                <div className="col-md-6">
+                  <h3>A React/Rails web app for job listings</h3>
+                  <p>Created with 2 servers. A React client-side server and a Rails api backend server</p>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      Firebase's google auth is used for User Authentication
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      The google-map-react npm is providing the google map feature.
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      A Search feature to filter jobs
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-end">
+                      <a href="https://github.com/projectmaking123/react-front-jobs">
+                        <i style={{fontSize: '60px'}} className="fa fa-github"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </header>
+          </section>
 
-          <section id="explore-head-section">
+          <section className="py-5">
             <div className="container">
               <div className="row">
-                <div className="col text-center">
-                  <div className="p-5">
-                    <h1 className="display-4">
-                      Explore
-                    </h1>
-                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error reprehenderit esse soluta eos ratione enim iusto eum, corporis, necessitatibus facilis quis ullam repellat vel dolorem amet molestiae officia velit voluptates.</p>
-                    <a className="btn-outline-secondary">Find Out More</a>
+                <div className="col-md-6">
+                  <h3>Play Sudoku and check out the Forecast</h3>
+                  <p>Created with 3 servers. React/Rails/Node</p>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      The sudoku game is composed of a rails api that holds all the logic for the game.
+                      While react handles the display. The boards's generation, validation and solution
+                      are all made with api calls. A game may be saved for later by storing it into
+                      firebase's database.
+                    </div>
                   </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-start">
+                      <i className="fa fa-check"></i>
+                    </div>
+                    <div className="p-4 align-self-end">
+                      The Forecast is originating from darksky's api. However, darksky does not enable CORS,
+                      meaning this React client side server can not make direct calls to it. As a solution, I
+                      created a node/express api that calls darksky's api. I enabled CORS on my express
+                      server so my client side server is able to make api calls to it.
+                    </div>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <div className="p-4 align-self-end">
+                      <a href="https://github.com/projectmaking123/jason-wang-1989">
+                        <i style={{fontSize: '60px'}} className="fa fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <a href="https://jason-wang-1989.firebaseapp.com/" >
+                    <img src="img/ny.jpg" alt="" className="img-fluid mb-3 rounded-circle" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -97,60 +130,19 @@ class App extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <img src="img/explore1.jpg" alt="" className="img-fluid mb-3 rounded-circle" />
+                  <a href="https://tutor-skill.herokuapp.com/" >
+                    <img src="img/Skillup.jpg" alt="" className="img-fluid mb-3 rounded-circle" />
+                  </a>
                 </div>
                 <div className="col-md-6">
-                  <h3>Explore & Connect</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, adipisci aliquam voluptatibus consequuntur? Libero a aliquam nam provident fugit velit sapiente soluta, ab eligendi reprehenderit! Facere cupiditate, vero tempore et.</p>
+                  <h3>A Rails/JQuery/Ajax Web App</h3>
+                  <p>A group project with myself and four others</p>
                   <div className="d-flex flex-row">
                     <div className="p-4 align-self-start">
                       <i className="fa fa-check"></i>
                     </div>
                     <div className="p-4 align-self-end">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
-                    </div>
-                  </div>
-                  <div className="d-flex flex-row">
-                    <div className="p-4 align-self-start">
-                      <i className="fa fa-check"></i>
-                    </div>
-                    <div className="p-4 align-self-end">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="create-head-section" className="bg-primary">
-            <div className="container">
-              <div className="row">
-                <div className="col text-center">
-                  <div className="p-5">
-                    <h1 className="display-4">
-                      Create
-                    </h1>
-                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error reprehenderit esse soluta eos ratione enim iusto eum, corporis, necessitatibus facilis quis ullam repellat vel dolorem amet molestiae officia velit voluptates.</p>
-                    <a className="btn-outline-light">Find Out More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="create-section" className="py-5">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-6">
-                  <h3>Create Passion</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, adipisci aliquam voluptatibus consequuntur? Libero a aliquam nam provident fugit velit sapiente soluta, ab eligendi reprehenderit! Facere cupiditate, vero tempore et.</p>
-                  <div className="d-flex flex-row">
-                    <div className="p-4 align-self-start">
-                      <i className="fa fa-check"></i>
-                    </div>
-                    <div className="p-4 align-self-end">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
+                      Rails on both front and backend.
                     </div>
                   </div>
                   <div className="d-flex flex-row">
@@ -158,56 +150,14 @@ class App extends Component {
                       <i className="fa fa-check"></i>
                     </div>
                     <div className="p-4 align-self-end">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <img src="img/create.jpg" alt="" className="img-fluid mb-3 rounded-circle" />
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="share-head-section" className="bg-primary">
-            <div className="container">
-              <div className="row">
-                <div className="col text-center">
-                  <div className="p-5">
-                    <h1 className="display-4">
-                      Share
-                    </h1>
-                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error reprehenderit esse soluta eos ratione enim iusto eum, corporis, necessitatibus facilis quis ullam repellat vel dolorem amet molestiae officia velit voluptates.</p>
-                    <a className="btn-outline-light">Find Out More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section id="share-section" className="bg-light text-muted py-5">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-6">
-                  <img src="img/share.jpg" alt="" className="img-fluid mb-3 rounded-circle" />
-                </div>
-                <div className="col-md-6">
-                  <h3>What you share</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, adipisci aliquam voluptatibus consequuntur? Libero a aliquam nam provident fugit velit sapiente soluta, ab eligendi reprehenderit! Facere cupiditate, vero tempore et.</p>
-                  <div className="d-flex flex-row">
-                    <div className="p-4 align-self-start">
-                      <i className="fa fa-check"></i>
-                    </div>
-                    <div className="p-4 align-self-end">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
+                      Ajax for leaving messages
                     </div>
                   </div>
                   <div className="d-flex flex-row">
-                    <div className="p-4 align-self-start">
-                      <i className="fa fa-check"></i>
-                    </div>
                     <div className="p-4 align-self-end">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorem, odio aspernatur libero nesciunt porro pariatur quae, ab saepe? Fuga velit, sapiente, repudiandae voluptatum voluptatem accusantium vero inventore et culpa.
+                      <a href="https://github.com/Alex-E-Camacho/skill-up">
+                        <i style={{fontSize: '60px'}} className="fa fa-github"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -220,10 +170,10 @@ class App extends Component {
               <div className="row">
                 <div className="col text-center">
                   <div className="py-4">
-                    <h1 className="h3">Test</h1>
+                    <h1 className="h3">Jason Wang</h1>
                     <p>Copyright &copy; 2017</p>
                     <button className="btn btn-primary" data-toggle="modal" data-target="#contactModal">
-                      Contact Us
+                      Contact Me
                     </button>
                   </div>
                 </div>
@@ -236,7 +186,7 @@ class App extends Component {
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title" id="contactModalTitle">
-                    Contact Us
+                    Contact Me
                   </h5>
                 </div>
                 <div className="modal-body">
