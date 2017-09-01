@@ -21,14 +21,14 @@ body {
   padding-top: 8%;
 }
 
-#explore-section .fa {
+#top .fa {
   color: white;
   background: #333333;
   padding: 4px;
   border-radius: 5px;
   font-size: 15px; }
 
-#create-section .fa {
+#middle .fa {
   color: #008ed6;
   background: #fff;
   padding: 4px;

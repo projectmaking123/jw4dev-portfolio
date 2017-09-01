@@ -4,10 +4,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div id="body">
-          <nav className="navbar navbar-expand-xxl bg-dark navbar-dark fixed-top">
+      <div>
+          <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div className="container">
-              <a href="index.html" className="navbar-brand">Jason Wang</a>
+              <a href="#home" className="navbar-brand">Jason Wang</a>
               <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -17,7 +17,16 @@ class App extends Component {
                     <a href="#home" className="nav-link">Home</a>
                   </li>
                   <li className="nav-item">
-                    <a href="#explore-head-section" className="nav-link">Explore</a>
+                    <a href="#bacon" className="nav-link">Bacon</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="#sudoku" className="nav-link">Sudoku</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="#skillup" className="nav-link">Skill-Up</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="#battleship" className="nav-link">Battleship</a>
                   </li>
                 </ul>
               </div>
@@ -34,7 +43,7 @@ class App extends Component {
             </h1>
           </section>
 
-          <section id="explore-section" className="bg-light text-muted py-5">
+          <section id="bacon" className="bg-light text-muted py-5">
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
@@ -94,7 +103,7 @@ class App extends Component {
             </div>
           </section>
 
-          <section className="py-5">
+          <section id="sudoku" className="py-5">
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
@@ -162,7 +171,7 @@ class App extends Component {
             </div>
           </section>
 
-          <section id="explore-section" className="bg-light text-muted py-5">
+          <section id="skillup" className="bg-light text-muted py-5">
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
@@ -201,7 +210,7 @@ class App extends Component {
             </div>
           </section>
 
-          <section className="py-5">
+          <section id="battleship" className="py-5">
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
@@ -233,7 +242,7 @@ class App extends Component {
                   </div>
                   <div className="d-flex flex-row">
                     <div className="p-4 align-self-end">
-                      <a href="https://github.com/projectmaking123/battleship-challenge">
+                      <a href="https://github.com/projectmaking123/battleship">
                         <i style={{fontSize: '60px'}} className="fa fa-github"></i>
                       </a>
                     </div>
@@ -264,30 +273,27 @@ class App extends Component {
 
           <div className="modal fade text-dark" id="contactModal">
             <div className="modal-dialog">
-              <div className="modal-content">
+              <div className="modal-content text-center">
                 <div className="modal-header">
                   <h5 className="modal-title" id="contactModalTitle">
                     Contact Me
                   </h5>
                 </div>
                 <div className="modal-body">
-                  <form>
-                    <div className="form-group">
-                      <label>Name</label>
-                      <input type="text" className="form-control"/>
+                  <div>
+                    <div className="card text-center py-5">
+                      <div className="card-block">
+                        <h4 className="card-title">Email</h4>
+                        <p>jasonw4dev@gmail.com</p>
+                      </div>
                     </div>
-                    <div className="form-group">
-                      <label>Email</label>
-                      <input type="email" className="form-control"/>
+                    <div className="card text-center py-5">
+                      <div className="card-block">
+                        <h4 className="card-title">Mobile</h4>
+                        <p>347-320-5396</p>
+                      </div>
                     </div>
-                    <div className="form-group">
-                      <label>Message</label>
-                      <textarea className="form-control"></textarea>
-                    </div>
-                  </form>
-                </div>
-                <div className="modal-footer">
-                  <button className="btn btn-primary btn-block">Submit</button>
+                  </div>
                 </div>
               </div>
             </div>
